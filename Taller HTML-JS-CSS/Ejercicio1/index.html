@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contador de Caracteres</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contador de Caracteres</h1>
+        <textarea id="texto" rows="5" cols="40"></textarea>
+        <p>Cantidad de caracteres: <span id="contador">0</span></p>
+    </div>
+
+    <script>
+        const textarea = document.getElementById("texto");
+        const contador = document.getElementById("contador");
+
+        textarea.addEventListener("input", function () {
+            const textoIngresado = textarea.value;
+            const cantidadCaracteres = textoIngresado.length;
+            contador.textContent = cantidadCaracteres;
+        });
+    </script>
+</body>
+<button onclick="window.history.back()">Regresar</button>
+</html>

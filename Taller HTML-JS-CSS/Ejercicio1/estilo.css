@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    color: #0000ff; 
+}

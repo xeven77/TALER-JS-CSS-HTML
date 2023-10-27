@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    text-align: center;
+    margin: 50px auto;
+    width: 60%;
+}
+h1{
+    color: #0a573d; 
+}
